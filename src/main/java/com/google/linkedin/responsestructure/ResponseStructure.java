@@ -6,6 +6,7 @@ public class ResponseStructure
 	private String message;
 	private Object body;
 	
+	
 	public int getStatus() {
 		return status;
 	}
@@ -25,10 +26,12 @@ public class ResponseStructure
 		this.body = body;
 	}
 	
+	
 	public ResponseStructure() {
 		super();
 		
 	}
+	
 	public ResponseStructure(int status, String message, Object body) 
 	{
 		super();
